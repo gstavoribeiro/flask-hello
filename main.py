@@ -15,7 +15,7 @@ def index():
 def upload():
   try:
     #receber o arquivo do formulário
-    file = request.files['file
+    file = request.files['file']
     
     #enviar o arquivo para a API
     response = requests.post(
